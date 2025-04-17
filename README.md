@@ -52,8 +52,6 @@ During inference, a test image is passed through all five models; the class whos
 - **Hardware:** Single GPU with 4 GB VRAM  
 - **Batch size:** 16 (limited by memory)  
 - **Epochs:** 20 per model  
-- **Optimizer:** Adam (learning rate = 1e‑4)  
-- **Loss:** Binary cross‑entropy  
 
 > **Note:** Due to resource constraints, batch size and number of epochs were kept modest. Despite this, the ensemble approach provided robust class separation under limited compute.
 
